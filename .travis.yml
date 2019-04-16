@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "8.9.4"
+before_install:
+  - yarn global add @angular/cli && yarn install
+before_script:
+  - ng test  --watch=false --browsers=ChromeHeadless --code-coverage
+script:
+  - cat ./coverage/random-phone-numbers/lcov.info | ./node_modules/coveralls/bin/coveralls.js

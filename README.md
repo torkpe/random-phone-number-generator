@@ -1,27 +1,27 @@
 # RandomPhoneNumbers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+[![Coverage Status](https://coveralls.io/repos/github/torkpe/random-phone-number-generator/badge.svg?branch=master)](https://coveralls.io/github/torkpe/random-phone-number-generator?branch=master)
+```
+Random phone numbers generator is a web application that allows users generate random phone numbers of ten digits and store them in a text file.
+```
+## Technology
 
-## Development server
+* Angular
+* Express
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup
 
-## Code scaffolding
+* Clone this repo to your machine by running `git clone https://github.com/torkpe/random-phone-number-generator.git`
+* cd into random-phone-numbers
+* Run `yarn install`
+* Start server side with the command `yarn run start:server`
+* Start client side with the command `ng serve`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Testing
+* Run `ng test`
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Want to Contribute ?
+* Fork the repository
+* Make your contributions
+* Make sure your work is well tested
+* Create Pull request against the development branch.
