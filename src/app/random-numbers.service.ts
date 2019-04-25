@@ -11,6 +11,6 @@ export class RandomNumbersService {
   ) { }
 
   getGeneratedNumbers(quantity) {
-    return this.http.get(`http://localhost:3000/random-numbers/${quantity}`);
+    return this.http.get(`https://random-numbers-gener.herokuapp.com/${quantity}`);
   }
 }

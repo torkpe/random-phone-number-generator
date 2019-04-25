@@ -7,14 +7,13 @@ Random phone numbers generator is a web application that allows users generate r
 ## Technology
 
 * Angular
-* Express
+* TypeScript
 
 ## Setup
 
 * Clone this repo to your machine by running `git clone https://github.com/torkpe/random-phone-number-generator.git`
 * cd into random-phone-numbers
 * Run `yarn install`
-* Start server side with the command `yarn run start:server`
 * Start client side with the command `ng serve`
 
 ## Testing
